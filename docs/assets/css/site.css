@@ -330,3 +330,16 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .hero .photo { object-position: 50% 0%; height: 62%; }
   .hero::after { background: linear-gradient(180deg, rgba(30,22,17,0) 30%, #1E1611 62%); }
 }
+
+/* Ready to ship */
+.card .frame { position: relative; }
+.badge { display: inline-block; font-family: var(--grotesk); font-size: 12px; font-weight: 500; letter-spacing: 0.01em; padding: 5px 9px; border-radius: 999px; background: var(--paper); color: var(--blackwood); }
+.frame > .badge { position: absolute; top: 12px; left: 12px; z-index: 1; box-shadow: 0 1px 2px rgba(42,33,28,.12); }
+.ready-item { display: flex; flex-direction: column; gap: 14px; }
+.ready-item .card { height: auto; }
+.button-small { align-self: flex-start; min-height: 40px; padding: 0 18px; font-size: 14px; }
+.ready-intro { max-width: 60ch; color: var(--ink-2); margin: -8px 0 28px; }
+.ready-strip { padding-top: clamp(32px, 5vw, 56px); padding-bottom: clamp(24px, 4vw, 48px); border-bottom: 1px solid rgba(42,33,28,.1); margin-bottom: clamp(32px, 5vw, 56px); }
+.ready-note { font-family: var(--grotesk); font-size: 15px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0 0; }
+.ready-note .badge { background: var(--linen); }
+.ready-foot { margin-top: 40px; color: var(--ink-2); }

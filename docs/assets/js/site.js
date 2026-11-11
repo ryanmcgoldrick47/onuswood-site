@@ -111,6 +111,18 @@
     });
   }
 
+  // Ready-to-ship pieces: add straight to the cart, capped at what's on the shelf
+  $$("[data-stock-add]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var it = JSON.parse(btn.getAttribute("data-stock-add"));
+      var found = cart.filter(function (x) { return x.id === it.id; })[0];
+      if (found) { if (found.qty < it.max) found.qty += 1; }
+      else cart.push({ id: it.id, name: it.name + " (ready to ship)", timber: it.timber, size: it.size, price: it.price, qty: 1, tone: it.tone });
+      save(cart); render();
+      if (drawer) openDrawer();
+    });
+  });
+
   // Shop filters
   var filters = $("[data-filters]"), grid = $("[data-grid]");
   if (filters && grid) {
@@ -124,7 +136,7 @@
       items.forEach(function (li) {
         var ok = (!cats.length || cats.indexOf(li.dataset.cat) !== -1) &&
           (!tims.length || li.dataset.timbers.split(" ").some(function (t) { return tims.indexOf(t) !== -1; })) &&
-          (+li.dataset.price >= lo && +li.dataset.price < hi) && (!lead || +li.dataset.lead <= +lead);
+          (+li.dataset.price >= lo && +li.dataset.price < hi) && (!lead || (lead === "ready" ? li.dataset.ready === "1" : +li.dataset.lead <= +lead));
         li.hidden = !ok; if (ok) shown++;
       });
       $("[data-filter-count]").textContent = shown === items.length ? "Showing all " + shown + " pieces" : "Showing " + shown + " of " + items.length + " pieces";
