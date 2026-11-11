@@ -91,8 +91,13 @@
       var size = data.sizes.filter(function (s) { return s.id === sid; })[0] || data.sizes[0];
       return { timber: t, size: size, price: size.price + (data.upcharge[t] || 0) };
     };
+    var mainPic = $(".gallery .frame-main img");
     var update = function () {
       var c = current();
+      if (mainPic && data.timberImages) {
+        var want = data.timberImages[c.timber] || data.mainImage;
+        if (want && mainPic.getAttribute("src") !== want) { mainPic.removeAttribute("srcset"); mainPic.src = want; }
+      }
       $("[data-price]", product).textContent = money(c.price);
       $("[data-timber-name]", product).textContent = data.timbers[c.timber];
     };
@@ -122,6 +127,18 @@
       if (drawer) openDrawer();
     });
   });
+
+  // Product gallery: thumbnails swap into the main image
+  var mainImg = $(".gallery .frame-main img");
+  if (mainImg) {
+    $$(".gallery .thumb").forEach(function (t) {
+      t.addEventListener("click", function () {
+        var im = $("img", t);
+        mainImg.src = im.currentSrc || im.src; mainImg.removeAttribute("srcset"); mainImg.alt = im.alt;
+        $$(".gallery .thumb").forEach(function (x) { x.classList.toggle("is-active", x === t); });
+      });
+    });
+  }
 
   // Shop filters
   var filters = $("[data-filters]"), grid = $("[data-grid]");
