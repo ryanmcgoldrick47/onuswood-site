@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /brand/
 
 Sitemap: https://onuswood.com/sitemap.xml
