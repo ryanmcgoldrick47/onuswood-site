@@ -128,7 +128,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .story-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: center; }
 .story .frame { aspect-ratio: 3 / 2; }
 .story-copy p { color: #3B312A; }
-.swatch-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin: 28px 0 24px; }
+.swatch-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 28px 0 24px; }
 .swatch-row li { display: flex; flex-direction: column; gap: 8px; font-family: var(--grotesk); font-size: 13px; line-height: 1.3; color: var(--ink-2); }
 .swatch-row .swatch { aspect-ratio: 1 / 1.4; width: 100%; border-radius: var(--radius); }
 .grain { background-color: var(--wood, #B4895A); background-image:

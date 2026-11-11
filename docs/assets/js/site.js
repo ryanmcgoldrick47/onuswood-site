@@ -165,3 +165,12 @@
     });
   });
 })();
+
+// Respect reduced motion: stop looping footage
+(function () {
+  try {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      Array.prototype.forEach.call(document.querySelectorAll("video[data-motion]"), function (v) { v.removeAttribute("autoplay"); v.pause(); });
+    }
+  } catch (e) {}
+})();
