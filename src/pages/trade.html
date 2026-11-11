@@ -1,0 +1,64 @@
+<!--meta {"path": "/trade/", "title": "Trade and specifiers: Onus Wood", "description": "Timber lighting for hospitality, workplace and retail projects. Spec sheets, lead times, custom sizes, bulk runs and timber samples for architects and designers."} -->
+<main id="main">
+<header class="page-head wrap">
+  <h1>Trade and specifiers</h1>
+  <p class="lede">We make timber lighting for restaurants, hotels, workplaces and shops, and we work directly with architects, interior designers and builders. Talk to us early and we'll plan the timber, sizes and lead times around your program.</p>
+</header>
+<div class="wrap"><div class="frame wide-photo">{{img:restaurant-warm-timber-dining|A dim restaurant dining room with warm light under timber arches|eager}}</div></div>
+
+<section class="section wrap" aria-labelledby="offer-title">
+  <div class="two-col">
+    <div>
+      <h2 id="offer-title">What we offer projects</h2>
+      <p class="lede">Every piece in the collection can be adjusted for a project: longer drops, different diameters, matched timber across a whole run.</p>
+    </div>
+    <div class="prose">
+      <ul>
+        <li>Custom sizes and lengths, drawn and quoted within a week.</li>
+        <li>Bulk runs with timber matched from the same batch of boards.</li>
+        <li>Spec sheets with dimensions, lamp type, lumens, CRI and IP rating for every piece.</li>
+        <li>Timber samples posted to your studio.</li>
+        <li>Trade pricing for registered designers and architects. [PLACEHOLDER: confirm discount.]</li>
+        <li>CAD and IES files on request. [PLACEHOLDER: not yet available.]</li>
+      </ul>
+      <p>Lead times are shown on every product page. For runs of ten or more, allow an extra two to four weeks. [PLACEHOLDER: confirm.]</p>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" aria-labelledby="downloads-title">
+  <div class="section-head"><h2 id="downloads-title">Downloads</h2><p>All files are placeholders until the range is finalised.</p></div>
+  <ul class="downloads prose" style="list-style:none;padding:0">
+    <li><a href="{{root}}downloads/onus-wood-catalogue.pdf">Onus Wood catalogue (PDF)</a> <span>[PLACEHOLDER]</span></li>
+    <li><a href="{{root}}downloads/onus-wood-spec-sheets.pdf">All spec sheets (PDF)</a> <span>[PLACEHOLDER]</span></li>
+    <li><a href="{{root}}downloads/onus-wood-timber-guide.pdf">Timber and finish guide (PDF)</a> <span>[PLACEHOLDER]</span></li>
+  </ul>
+</section>
+
+<section class="section wrap" aria-labelledby="trade-form-title">
+  <div class="two-col">
+    <div>
+      <h2 id="trade-form-title">Trade enquiry</h2>
+      <p class="lede">Send us the project basics and we'll come back with options, pricing and lead times within two working days.</p>
+    </div>
+    <form class="form" data-form="trade" action="https://formspree.io/f/FORMSPREE_ID" method="POST">
+      <input type="hidden" name="_subject" value="Trade enquiry">
+      <div class="form-row">
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Company<input name="company" autocomplete="organization"></label>
+      </div>
+      <div class="form-row">
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Phone<input name="phone" type="tel" autocomplete="tel"></label>
+      </div>
+      <div class="form-row">
+        <label>Project type<select name="project"><option>Hospitality</option><option>Workplace</option><option>Retail</option><option>Residential development</option><option>Other</option></select></label>
+        <label>Quantity<input name="quantity" inputmode="numeric"></label>
+      </div>
+      <label>Project details and timing<textarea name="message" rows="5" required></textarea></label>
+      <button class="button" type="submit">Send trade enquiry</button>
+      <p class="form-status" data-form-status role="status"></p>
+    </form>
+  </div>
+</section>
+</main>

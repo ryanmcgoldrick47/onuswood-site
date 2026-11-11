@@ -1,0 +1,73 @@
+<main id="main">
+<nav class="crumbs wrap" aria-label="Breadcrumb">
+  <ol><li><a href="{{root}}shop/">Shop</a></li><li><a href="{{root}}shop/{{category}}/">{{categoryName}}</a></li><li aria-current="page">{{name}}</li></ol>
+</nav>
+
+<div class="product wrap" data-product='{{productJson}}'>
+  <div class="gallery">
+    <div class="frame frame-main">{{mainImage}}</div>
+    <div class="gallery-thumbs">
+{{thumbs}}
+    </div>
+  </div>
+
+  <div class="buy">
+    <p class="kicker">{{type}}</p>
+    <h1>{{name}}</h1>
+    <p class="buy-short">{{short}}</p>
+    <p class="price"><span data-price>{{fromPrice}}</span> <span class="price-note">including GST</span></p>
+
+    <form class="options" data-options>
+      <fieldset>
+        <legend>Timber <span class="legend-value" data-timber-name>{{firstTimberName}}</span></legend>
+        <div class="swatches">
+{{timberOptions}}
+        </div>
+      </fieldset>
+      {{sizeFieldset}}
+      <p class="lead"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>{{leadTime}}</p>
+      <button class="button button-wide" type="submit" data-add>Add to cart</button>
+      <p class="form-status" data-add-status role="status"></p>
+    </form>
+
+    <ul class="buy-links">
+      <li><a class="text-link" href="{{root}}contact/?subject=Custom%20size%3A%20{{name}}">Request a custom size</a></li>
+      <li><a class="text-link" href="{{root}}contact/?subject=Timber%20sample%3A%20{{name}}">Order a timber sample</a></li>
+    </ul>
+    <p class="fine">Delivered across Australia. [PLACEHOLDER: shipping rates and timing to confirm.]</p>
+  </div>
+</div>
+
+<section class="wrap product-detail">
+  <div class="detail-story">
+    <h2>About {{name}}</h2>
+    <p class="kicker">Named for {{namedFor}}</p>
+    <p class="lede">{{story}}</p>
+    <p>Because every {{name}} is made to order in the timber you choose, no two are quite the same. The grain, figure and colour are the tree's own, so expect some natural variation from the photos.</p>
+    <p class="placeholder-note">[PLACEHOLDER] Product photography shows a similar piece, not the final Onus Wood design.</p>
+  </div>
+  <div class="detail-specs">
+    <h2>Specifications</h2>
+    <dl class="specs">
+      <div><dt>Dimensions</dt><dd>{{dimsList}}</dd></div>
+{{specRows}}
+      <div><dt>Lead time</dt><dd>{{leadTime}}</dd></div>
+    </dl>
+    <p class="placeholder-note">All specifications are placeholders until tested and confirmed.</p>
+    <h3>Downloads</h3>
+    <ul class="downloads">
+      <li><a href="{{root}}downloads/{{slug}}-spec-sheet.pdf">Spec sheet (PDF)</a> <span>[PLACEHOLDER]</span></li>
+      <li><a href="{{root}}downloads/{{slug}}-install-guide.pdf">Install guide (PDF)</a> <span>[PLACEHOLDER]</span></li>
+    </ul>
+    <h3>Care</h3>
+    <p>Dust with a soft dry cloth. Keep out of direct sun and away from heaters so the timber stays stable. A light coat of hardwax oil every few years brings back the sheen. Hard-wired lights must be installed by a licensed electrician.</p>
+  </div>
+</section>
+
+<section class="section wrap" aria-labelledby="related-title">
+  <div class="section-head"><h2 id="related-title">You might also like</h2><a class="text-link" href="{{root}}shop/">See all pieces</a></div>
+  <ul class="cards">
+{{related}}
+  </ul>
+</section>
+</main>

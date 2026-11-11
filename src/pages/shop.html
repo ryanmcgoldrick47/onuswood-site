@@ -1,0 +1,44 @@
+<!--meta {"path": "/shop/", "title": "Shop Australian timber lighting: Onus Wood", "description": "Browse every Onus Wood piece: timber pendants, wall sconces, floor lamps, task lamps and candelabras. Filter by type, timber, price and lead time."} -->
+<main id="main">
+<header class="page-head wrap">
+  <h1>The collection</h1>
+  <p class="lede">Fourteen pieces across five families, each one made to order in the Australian timber you choose. Prices include GST, and every product page shows the lead time before you buy.</p>
+</header>
+
+<div class="shop-layout wrap">
+  <div>
+    <button class="button filters-toggle" type="button" aria-expanded="false" aria-controls="filters" data-filters-toggle>Filter pieces</button>
+    <form class="filters" id="filters" data-filters aria-label="Filter pieces">
+      <fieldset>
+        <legend>Type</legend>
+{{filterCategories}}
+      </fieldset>
+      <fieldset>
+        <legend>Timber</legend>
+{{filterTimbers}}
+      </fieldset>
+      <fieldset>
+        <legend>Price</legend>
+        <label><input type="radio" name="price" value="" checked> Any price</label>
+        <label><input type="radio" name="price" value="0-800"> Under $800</label>
+        <label><input type="radio" name="price" value="800-1600"> $800 to $1,600</label>
+        <label><input type="radio" name="price" value="1600-99999"> Over $1,600</label>
+      </fieldset>
+      <fieldset>
+        <legend>Lead time</legend>
+        <label><input type="radio" name="lead" value="" checked> Any lead time</label>
+        <label><input type="radio" name="lead" value="2"> Ships in 2 weeks</label>
+        <label><input type="radio" name="lead" value="6"> Within 6 weeks</label>
+      </fieldset>
+      <button class="text-link" type="reset">Clear filters</button>
+    </form>
+  </div>
+  <div>
+    <p class="filter-count" data-filter-count role="status">Showing all 14 pieces</p>
+    <ul class="cards" data-grid>
+{{allCards}}
+    </ul>
+    <p class="empty-results" data-empty hidden>Nothing matches those filters. Try another timber, or <a href="{{root}}contact/">ask us about a custom piece</a>.</p>
+  </div>
+</div>
+</main>

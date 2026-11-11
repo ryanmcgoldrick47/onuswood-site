@@ -1,0 +1,82 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="45" stroke-width="5"/><circle cx="51.5" cy="51.5" r="34" stroke-width="2.5"/><circle cx="52.5" cy="52.5" r="24" stroke-width="2.5"/><polyline points="39,43 45.5,62 52.5,47 59.5,62 66,43" stroke-width="4.5"/></svg>
+      <p class="footer-tag">Light, grown slowly.</p>
+      <p>Australian timber lighting, designed and made to order.</p>
+    </div>
+    <div>
+      <h2 class="footer-head">Shop</h2>
+      <ul>
+        <li><a href="{{root}}shop/wall-sconces/">Wall sconces</a></li>
+        <li><a href="{{root}}shop/pendants/">Pendants</a></li>
+        <li><a href="{{root}}shop/floor-lamps/">Floor lamps</a></li>
+        <li><a href="{{root}}shop/task-lamps/">Task lamps</a></li>
+        <li><a href="{{root}}shop/candelabras/">Candelabras</a></li>
+        <li><a href="{{root}}bespoke/">Bespoke</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-head">Studio</h2>
+      <ul>
+        <li><a href="{{root}}timbers/">Our timbers</a></li>
+        <li><a href="{{root}}trade/">Trade and specifiers</a></li>
+        <li><a href="{{root}}about/">About</a></li>
+        <li><a href="{{root}}contact/">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-head">Help</h2>
+      <ul>
+        <li><a href="{{root}}shipping/">Shipping</a></li>
+        <li><a href="{{root}}returns/">Returns</a></li>
+        <li><a href="{{root}}privacy/">Privacy</a></li>
+        <li><a href="{{root}}terms/">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <p>© <span data-year>2026</span> Onus Wood. ABN [ABN PLACEHOLDER]</p>
+    <p><a href="mailto:hello@onuswood.com">hello@onuswood.com</a></p><p><a href="https://instagram.com/onuswood">Instagram [PLACEHOLDER]</a></p>
+    <p>Prices in AUD and include GST.</p>
+  </div>
+</footer>
+
+<div class="drawer" data-drawer hidden>
+  <div class="drawer-scrim" data-cart-close></div>
+  <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <div class="drawer-head">
+      <h2 id="cart-title">Your cart</h2>
+      <button type="button" class="icon-button" data-cart-close aria-label="Close cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="drawer-body">
+      <div data-cart-view>
+        <ul class="cart-lines" data-cart-lines></ul>
+        <p class="cart-empty" data-cart-empty>Your cart is empty. Every piece is made to order, so take your time.</p>
+      </div>
+      <div data-checkout-view hidden>
+        <p class="kicker">Checkout coming soon</p>
+        <h3 class="checkout-title">Enquire to order</h3>
+        <p>Online payment isn't switched on yet. Send us your cart and we'll confirm the timber, lead time and delivery, then send a secure invoice.</p>
+        <form class="form" data-form="order" action="https://formspree.io/f/FORMSPREE_ID" method="POST">
+          <input type="hidden" name="cart" data-cart-field>
+          <label>Name<input name="name" autocomplete="name" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Postcode<input name="postcode" autocomplete="postal-code" inputmode="numeric"></label>
+          <label>Anything else?<textarea name="message" rows="3"></textarea></label>
+          <button class="button" type="submit">Send enquiry</button>
+          <p class="form-status" data-form-status role="status"></p>
+        </form>
+        <button type="button" class="text-link" data-checkout-back>Back to cart</button>
+      </div>
+    </div>
+    <div class="drawer-foot" data-cart-foot>
+      <div class="cart-total"><span>Total</span><strong data-cart-total>$0</strong></div>
+      <p class="fine">Includes GST. Shipping quoted on enquiry.</p>
+      <button type="button" class="button button-wide" data-checkout>Checkout</button>
+    </div>
+  </aside>
+</div>
+<script src="{{root}}assets/js/site.js" defer></script>
+</body>
+</html>

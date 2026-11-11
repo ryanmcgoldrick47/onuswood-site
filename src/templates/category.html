@@ -1,0 +1,33 @@
+<main id="main">
+<nav class="crumbs wrap" aria-label="Breadcrumb">
+  <ol><li><a href="{{root}}shop/">Shop</a></li><li aria-current="page">{{catName}}</li></ol>
+</nav>
+<header class="page-head wrap">
+  <h1>{{catName}}</h1>
+  <p class="lede">{{catIntro}}</p>
+</header>
+<div class="wrap"><div class="frame wide-photo">{{catImage}}</div></div>
+<section class="section wrap" aria-labelledby="pieces-title">
+  <div class="section-head">
+    <h2 id="pieces-title">{{count}} pieces</h2>
+    <p>Every piece is made to order in your choice of Australian timber. Prices include GST. Need a different size or a run of matching lights? <a href="{{root}}trade/">Talk to us about custom work</a>.</p>
+  </div>
+  <ul class="cards">
+{{cards}}
+  </ul>
+</section>
+<section class="section wrap" aria-labelledby="choose-title">
+  <div class="two-col">
+    <h2 id="choose-title">Choosing your timber</h2>
+    <div>
+      <p>Each piece is shown with the timbers it can be made in. Paler species like Tasmanian oak and Victorian ash keep a room bright and calm. Spotted gum and blackbutt sit in the warm middle, and jarrah and Tasmanian blackwood bring depth to darker rooms.</p>
+      <p>Because we join shorter and narrower boards to make the most of every tree, you'll see seams and glue lines in the finished piece. They're deliberate, and they make each light a little different. Unsure? <a class="text-link" href="{{root}}contact/?subject=Timber%20sample">Order a timber sample</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" aria-label="Other collections">
+  <div class="section-head"><h2>Other collections</h2><a class="text-link" href="{{root}}shop/">See everything</a></div>
+  <p class="lede">{{otherLinks}}</p>
+</section>
+</main>

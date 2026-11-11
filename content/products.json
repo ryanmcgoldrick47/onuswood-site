@@ -1,0 +1,738 @@
+{
+ "_note": "PLACEHOLDER catalogue. Names, prices, specs, stories and photos are concepts for Ryan to approve. checkoutUrl stays empty until Stripe or Shopify is set up.",
+ "categories": {
+  "pendants": {
+   "name": "Pendants",
+   "intro": "Pendants are where timber and light meet most directly. Each shade is turned or built from solid Australian hardwood, so the grain wraps around the light and glows at the thinnest edges. Hang one low over a dining table, or run three along a kitchen bench.",
+   "image": "pendant-daintree-slatted-timber",
+   "alt": "A slatted timber pendant glowing warm under a timber-framed roof"
+  },
+  "wall-sconces": {
+   "name": "Wall sconces",
+   "intro": "Wall sconces put the light where you live: beside a bed, along a hallway, either side of a mirror. Ours use timber backplates and shields to bounce light softly off the wall, so you see the glow and the grain rather than the globe.",
+   "image": "sconce-wollemi-linen-shade-timber-wall",
+   "alt": "A linen-shaded wall sconce glowing against a timber-panelled wall"
+  },
+  "floor-lamps": {
+   "name": "Floor lamps",
+   "intro": "Floor lamps are the easiest way to warm up a room without an electrician. Turned timber stems and heavy bases keep them steady and quiet, and a linen shade keeps the light gentle enough for reading late.",
+   "image": "floor-karijini-timber-tripod-evening",
+   "alt": "A timber tripod floor lamp glowing in a dim room in the evening"
+  },
+  "task-lamps": {
+   "name": "Task lamps",
+   "intro": "Task lamps are for close work: a desk, a reading chair, a workbench. They are compact and precise, with integrated LEDs chosen for accurate colour, and timber bodies you will want to keep within reach.",
+   "image": "task-bright-timber-desk-lamp",
+   "alt": "A timber desk lamp with a glowing slot standing on a desk in afternoon light"
+  },
+  "candelabras": {
+   "name": "Candelabras",
+   "intro": "Candelabras are our multi-light fittings: several lights carried on a single timber frame or canopy. They are made for kitchen islands, long dining tables and high ceilings, where one pendant isn't enough and a row of separate ones feels busy.",
+   "image": "candelabra-myall-linear-timber-beams",
+   "alt": "Long timber light bars glowing in a row under a dark timber ceiling"
+  }
+ },
+ "timbers": {
+  "tasmanian-oak": {
+   "name": "Tasmanian oak",
+   "tone": "#CFA97A",
+   "colour": "Pale straw to light honey",
+   "grain": "Straight and even, with fine gum veins",
+   "grows": "Tasmania and Victoria's high country",
+   "character": "Bright, calm and modern. Glows golden when lit from behind."
+  },
+  "victorian-ash": {
+   "name": "Victorian ash",
+   "tone": "#D8BC8E",
+   "colour": "Pale cream to light pink-brown",
+   "grain": "Straight with a clear growth-ring figure",
+   "grows": "Cool mountain forests of Victoria",
+   "character": "Light and airy. Takes a soft matt finish beautifully."
+  },
+  "spotted-gum": {
+   "name": "Spotted gum",
+   "tone": "#9A7B5A",
+   "colour": "Light brown to deep chocolate",
+   "grain": "Wavy, with a ripple figure that catches the light",
+   "grows": "Coastal NSW and south-east Queensland",
+   "character": "Strong and lively. The figure shimmers as you walk past."
+  },
+  "blackbutt": {
+   "name": "Blackbutt",
+   "tone": "#B89A6E",
+   "colour": "Golden yellow to pale brown",
+   "grain": "Straight and moderately coarse",
+   "grows": "Coastal NSW and Queensland",
+   "character": "Honest and warm. A natural fit for coastal homes."
+  },
+  "jarrah": {
+   "name": "Jarrah",
+   "tone": "#7A3B2A",
+   "colour": "Rich red to deep burgundy",
+   "grain": "Interlocked, with occasional fiddleback",
+   "grows": "South-west Western Australia",
+   "character": "Dramatic and dense. Deepens to a dark red over time."
+  },
+  "tasmanian-blackwood": {
+   "name": "Tasmanian blackwood",
+   "tone": "#6B4A32",
+   "colour": "Golden brown with darker bands",
+   "grain": "Straight to wavy, with chatoyant figure",
+   "grows": "North-west Tasmania's wet forests",
+   "character": "Our most prized species. Deep, lustrous and quietly luxurious."
+  },
+  "huon-pine": {
+   "name": "Huon pine",
+   "tone": "#E2C98F",
+   "colour": "Pale yellow to straw",
+   "grain": "Very fine and close, with bird's-eye flecks",
+   "grows": "South-west Tasmania (recovered timber only)",
+   "character": "Rare, fragrant and soft-gold. Used only for small, special pieces."
+  },
+  "river-red-gum": {
+   "name": "River red gum",
+   "tone": "#8A3F2C",
+   "colour": "Pink-red to deep red-brown",
+   "grain": "Interlocked and wavy",
+   "grows": "Along the Murray-Darling river systems",
+   "character": "Bold and characterful, full of figure and movement."
+  },
+  "recycled-hardwood": {
+   "name": "Recycled hardwood",
+   "tone": "#8E6E52",
+   "colour": "Mixed browns with old nail marks",
+   "grain": "Varies board to board",
+   "grows": "Salvaged from old Australian buildings",
+   "character": "Every piece carries a history. No two lights match."
+  }
+ },
+ "products": [
+  {
+   "slug": "cradle-pendant",
+   "name": "Cradle",
+   "type": "Pendant",
+   "category": "pendants",
+   "featured": true,
+   "short": "A turned timber dome that throws a soft pool of light over a dining table or kitchen bench.",
+   "story": "Cradle is turned from a stack of boards glued up face to face, so the glue lines run around the shade like contour lines on a map. Lit from inside, the thinnest part of the rim glows warm and every seam shows. It's the simplest shape in the collection, and the one that shows our approach most clearly.",
+   "images": [
+    "pendant-cradle-dark-timber-room"
+   ],
+   "alt": "A turned timber dome pendant glowing in a dark timber-lined room",
+   "timbers": [
+    "tasmanian-oak",
+    "spotted-gum",
+    "blackbutt",
+    "tasmanian-blackwood"
+   ],
+   "timberUpcharge": {
+    "tasmanian-blackwood": 220
+   },
+   "sizes": [
+    {
+     "id": "400",
+     "label": "400 mm",
+     "price": 1480,
+     "dims": "400 mm diameter, 210 mm high"
+    },
+    {
+     "id": "550",
+     "label": "550 mm",
+     "price": 1890,
+     "dims": "550 mm diameter, 280 mm high"
+    }
+   ],
+   "leadTime": "Made to order, 6 to 8 weeks",
+   "leadWeeks": 8,
+   "specs": {
+    "Light source": "E27 LED globe included",
+    "Output": "806 lumens",
+    "Colour temperature": "2700K (3000K on request)",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Cable": "3 m fabric cable, cut to length on install",
+    "Canopy": "Timber canopy to match, 120 mm",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Cradle Mountain, Tasmania"
+  },
+  {
+   "slug": "daintree-pendant",
+   "name": "Daintree",
+   "type": "Pendant",
+   "category": "pendants",
+   "featured": false,
+   "short": "Fine timber slats around a warm glow, like light through a stack of kindling.",
+   "story": "Daintree is built from dozens of narrow slats, the kind of short, thin lengths that usually end up as offcuts. Each one is sanded by hand and spaced so the light escapes in soft bands. Switched off it reads as joinery; switched on it fills a room with striped shadow.",
+   "images": [
+    "pendant-daintree-slatted-timber"
+   ],
+   "alt": "A slatted timber pendant glowing under a rustic roof",
+   "timbers": [
+    "victorian-ash",
+    "tasmanian-oak",
+    "spotted-gum"
+   ],
+   "timberUpcharge": {
+    "spotted-gum": 160
+   },
+   "sizes": [
+    {
+     "id": "450",
+     "label": "450 mm",
+     "price": 2280,
+     "dims": "450 mm diameter, 520 mm high"
+    },
+    {
+     "id": "600",
+     "label": "600 mm",
+     "price": 2790,
+     "dims": "600 mm diameter, 680 mm high"
+    }
+   ],
+   "leadTime": "Made to order, 8 to 10 weeks",
+   "leadWeeks": 10,
+   "specs": {
+    "Light source": "E27 LED globe included",
+    "Output": "1055 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Cable": "3 m fabric cable",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "the Daintree rainforest, Far North Queensland"
+  },
+  {
+   "slug": "flinders-pendant",
+   "name": "Flinders",
+   "type": "Pendant",
+   "category": "pendants",
+   "featured": false,
+   "short": "An open timber cube with a bare globe at its heart. Joinery you can see straight through.",
+   "story": "Flinders is pure structure: twelve lengths of hardwood joined at the corners with no visible fixings. It is the piece that shows our joinery most honestly, and it looks best hung in a cluster at different heights.",
+   "images": [
+    "pendant-flinders-timber-cube"
+   ],
+   "alt": "An open timber cube pendant with a filament globe inside",
+   "timbers": [
+    "jarrah",
+    "spotted-gum",
+    "recycled-hardwood"
+   ],
+   "timberUpcharge": {},
+   "sizes": [
+    {
+     "id": "250",
+     "label": "250 mm",
+     "price": 1240,
+     "dims": "250 mm cube"
+    },
+    {
+     "id": "350",
+     "label": "350 mm",
+     "price": 1560,
+     "dims": "350 mm cube"
+    }
+   ],
+   "leadTime": "Made to order, 4 to 6 weeks",
+   "leadWeeks": 6,
+   "specs": {
+    "Light source": "E27 filament LED included",
+    "Output": "470 lumens",
+    "Colour temperature": "2200K",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Cable": "3 m fabric cable",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "the Flinders Ranges, South Australia"
+  },
+  {
+   "slug": "wollemi-wall-sconce",
+   "name": "Wollemi",
+   "type": "Wall sconce",
+   "category": "wall-sconces",
+   "featured": true,
+   "short": "A linen shade on a timber arm that washes soft light down a wall.",
+   "story": "Wollemi takes its shape from the fold of a sandstone gorge. A short timber arm holds a linen shade close to the wall, so the light spills down in a gentle fan. Mounted in pairs it frames a bed or a doorway.",
+   "images": [
+    "sconce-wollemi-linen-shade-timber-wall"
+   ],
+   "alt": "A linen-shaded wall sconce glowing against a timber-panelled wall",
+   "timbers": [
+    "tasmanian-oak",
+    "spotted-gum",
+    "jarrah",
+    "tasmanian-blackwood"
+   ],
+   "timberUpcharge": {
+    "tasmanian-blackwood": 90
+   },
+   "sizes": [
+    {
+     "id": "300",
+     "label": "300 mm",
+     "price": 640,
+     "dims": "300 mm high, 200 mm wide, 220 mm deep"
+    }
+   ],
+   "leadTime": "Made to order, 4 to 6 weeks",
+   "leadWeeks": 6,
+   "specs": {
+    "Light source": "E14 LED globe included",
+    "Output": "470 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Mounting": "Hard-wired, standard wall box",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Wollemi National Park, NSW"
+  },
+  {
+   "slug": "otway-wall-sconce",
+   "name": "Otway",
+   "type": "Wall sconce",
+   "category": "wall-sconces",
+   "featured": false,
+   "short": "Two timber wings that shield the globe and throw light up and down the wall.",
+   "story": "Otway wraps the light in two curved timber wings, so it glows from the edges like a coal in a fire. It is our warmest sconce, made for hallways, verandahs and anywhere you want a low, golden light at night.",
+   "images": [
+    "sconce-otway-timber-backplate-glow"
+   ],
+   "alt": "A timber-winged wall sconce glowing brightly on a wall",
+   "timbers": [
+    "spotted-gum",
+    "river-red-gum",
+    "recycled-hardwood"
+   ],
+   "timberUpcharge": {
+    "river-red-gum": 80
+   },
+   "sizes": [
+    {
+     "id": "320",
+     "label": "320 mm",
+     "price": 780,
+     "dims": "320 mm high, 240 mm wide, 130 mm deep"
+    }
+   ],
+   "leadTime": "Made to order, 4 to 6 weeks",
+   "leadWeeks": 6,
+   "specs": {
+    "Light source": "E27 LED globe included",
+    "Output": "806 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Mounting": "Hard-wired, standard wall box",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "the Great Otway National Park, Victoria"
+  },
+  {
+   "slug": "freycinet-wall-sconce",
+   "name": "Freycinet",
+   "type": "Wall sconce",
+   "category": "wall-sconces",
+   "featured": false,
+   "short": "A small fabric hood on a turned timber mount. Quiet enough for a bedroom.",
+   "story": "Freycinet is the smallest light in the range: a turned timber mount the size of your palm and a soft hood that hides the globe completely. Fitted in pairs it reads more like architecture than a fitting.",
+   "images": [
+    "sconce-freycinet-pair-plaster-wall"
+   ],
+   "alt": "A pair of small hooded wall sconces either side of a plaster archway",
+   "timbers": [
+    "tasmanian-oak",
+    "victorian-ash",
+    "huon-pine"
+   ],
+   "timberUpcharge": {
+    "huon-pine": 240
+   },
+   "sizes": [
+    {
+     "id": "180",
+     "label": "180 mm",
+     "price": 460,
+     "dims": "180 mm high, 160 mm wide, 170 mm deep"
+    }
+   ],
+   "leadTime": "Ships in 2 weeks",
+   "leadWeeks": 2,
+   "specs": {
+    "Light source": "Integrated LED, 5 W",
+    "Output": "420 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Mounting": "Hard-wired, standard wall box",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Freycinet National Park, Tasmania"
+  },
+  {
+   "slug": "barrington-floor-lamp",
+   "name": "Barrington",
+   "type": "Floor lamp",
+   "category": "floor-lamps",
+   "featured": true,
+   "short": "A slender timber stem and linen drum shade for reading corners.",
+   "story": "Barrington stands on a heavy turned base with a single straight stem, so it sits quietly beside an armchair. The linen shade softens the light and lets the timber do the talking.",
+   "images": [
+    "floor-barrington-timber-pole-linen-shade"
+   ],
+   "alt": "A timber floor lamp with a white linen drum shade against a pale blue wall",
+   "timbers": [
+    "victorian-ash",
+    "spotted-gum",
+    "tasmanian-blackwood"
+   ],
+   "timberUpcharge": {
+    "tasmanian-blackwood": 180
+   },
+   "sizes": [
+    {
+     "id": "1500",
+     "label": "1500 mm",
+     "price": 1950,
+     "dims": "1500 mm high, 420 mm shade, 300 mm base"
+    }
+   ],
+   "leadTime": "Made to order, 6 to 8 weeks",
+   "leadWeeks": 8,
+   "specs": {
+    "Light source": "E27 LED globe included",
+    "Output": "806 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Inline dimmer on the cord",
+    "Cable": "2.5 m fabric cable with plug",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Barrington Tops, NSW"
+  },
+  {
+   "slug": "karijini-floor-lamp",
+   "name": "Karijini",
+   "type": "Floor lamp",
+   "category": "floor-lamps",
+   "featured": true,
+   "short": "Three timber legs, one generous shade. Our most sculptural floor lamp.",
+   "story": "Karijini stands on three tapered legs that meet just below the shade, like a surveyor's tripod. The legs fold flat for delivery and lock with a single brass pin.",
+   "images": [
+    "floor-karijini-timber-tripod-evening"
+   ],
+   "alt": "A timber tripod floor lamp glowing in a dim room in the evening",
+   "timbers": [
+    "blackbutt",
+    "spotted-gum",
+    "jarrah"
+   ],
+   "timberUpcharge": {
+    "jarrah": 120
+   },
+   "sizes": [
+    {
+     "id": "1600",
+     "label": "1600 mm",
+     "price": 2380,
+     "dims": "1600 mm high, 500 mm shade, 600 mm footprint"
+    }
+   ],
+   "leadTime": "Made to order, 6 to 8 weeks",
+   "leadWeeks": 8,
+   "specs": {
+    "Light source": "E27 LED globe included",
+    "Output": "1055 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Inline dimmer on the cord",
+    "Cable": "2.5 m fabric cable with plug",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Karijini National Park, Western Australia"
+  },
+  {
+   "slug": "daylesford-floor-lamp",
+   "name": "Daylesford",
+   "type": "Floor lamp",
+   "category": "floor-lamps",
+   "featured": false,
+   "short": "A compact reading lamp that tucks in beside an armchair.",
+   "story": "Daylesford is the floor lamp for small rooms. Its shade sits at reading height and its round base slides under the edge of a chair, so the light lands exactly on the page.",
+   "images": [
+    "floor-daylesford-armchair-reading-corner"
+   ],
+   "alt": "A slim floor lamp beside an armchair in a reading corner",
+   "timbers": [
+    "tasmanian-oak",
+    "tasmanian-blackwood"
+   ],
+   "timberUpcharge": {
+    "tasmanian-blackwood": 140
+   },
+   "sizes": [
+    {
+     "id": "1300",
+     "label": "1300 mm",
+     "price": 1420,
+     "dims": "1300 mm high, 300 mm shade, 260 mm base"
+    }
+   ],
+   "leadTime": "Ships in 2 weeks",
+   "leadWeeks": 2,
+   "specs": {
+    "Light source": "E27 LED globe included",
+    "Output": "806 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Inline dimmer on the cord",
+    "Cable": "2.5 m fabric cable with plug",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Daylesford in Victoria's spa country"
+  },
+  {
+   "slug": "bright-task-lamp",
+   "name": "Bright",
+   "type": "Task lamp",
+   "category": "task-lamps",
+   "featured": true,
+   "short": "Two timber leaves with a line of light between them.",
+   "story": "Bright is two timber leaves standing on a shared base, each one laminated from narrow boards so the seams run the full height. A thin LED strip hides between them, so light falls in a clean band across the desk and the grain is lit from the side.",
+   "images": [
+    "task-bright-timber-desk-lamp",
+    "task-bright-glowing-slot-detail",
+    "task-bright-on-workspace"
+   ],
+   "alt": "A timber desk lamp made of two leaves with a glowing slot between them",
+   "timbers": [
+    "tasmanian-oak",
+    "blackbutt",
+    "tasmanian-blackwood"
+   ],
+   "timberUpcharge": {
+    "tasmanian-blackwood": 110
+   },
+   "sizes": [
+    {
+     "id": "380",
+     "label": "380 mm",
+     "price": 690,
+     "dims": "380 mm high, 200 mm wide, 140 mm deep"
+    }
+   ],
+   "leadTime": "Ships in 2 weeks",
+   "leadWeeks": 2,
+   "specs": {
+    "Light source": "Integrated LED strip, 8 W",
+    "Output": "640 lumens",
+    "Colour temperature": "3000K",
+    "CRI": "95+",
+    "Dimming": "Touch dimmer on the base",
+    "Cable": "2 m fabric cable with plug",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Bright in Victoria's alpine valleys"
+  },
+  {
+   "slug": "lorne-task-lamp",
+   "name": "Lorne",
+   "type": "Task lamp",
+   "category": "task-lamps",
+   "featured": false,
+   "short": "A small timber stem and paper-white shade for a bedside or shelf.",
+   "story": "Lorne is a short turned stem with a soft white shade on top, small enough for a bedside table and calm enough to leave on all evening. The stem is turned from offcuts of our larger pieces, glued up so the seams show.",
+   "images": [
+    "task-lorne-small-timber-lamp"
+   ],
+   "alt": "A small table lamp with a timber stem and white shade on a pale surface",
+   "timbers": [
+    "spotted-gum",
+    "jarrah",
+    "recycled-hardwood"
+   ],
+   "timberUpcharge": {},
+   "sizes": [
+    {
+     "id": "320",
+     "label": "320 mm",
+     "price": 680,
+     "dims": "320 mm high, 180 mm shade"
+    }
+   ],
+   "leadTime": "Ships in 2 weeks",
+   "leadWeeks": 2,
+   "specs": {
+    "Light source": "E14 LED globe included",
+    "Output": "470 lumens",
+    "Colour temperature": "2700K",
+    "CRI": "90+",
+    "Dimming": "Inline dimmer on the cord",
+    "Cable": "2 m fabric cable with plug",
+    "IP rating": "IP20, indoor use"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Lorne on the Great Ocean Road"
+  },
+  {
+   "slug": "myall-candelabra",
+   "name": "Myall",
+   "type": "Candelabra",
+   "category": "candelabras",
+   "featured": true,
+   "short": "A long timber beam carrying a row of lights, made for a kitchen island or a long dining table.",
+   "story": "Myall is a single long beam laminated from narrow boards, with the seams running its full length. Five lights are set into its underside, so the whole table is lit evenly and the beam itself becomes the feature. It hangs from two fine cables and can be made to the length of your bench.",
+   "images": [
+    "candelabra-myall-linear-timber-beams"
+   ],
+   "alt": "Long timber light bars glowing in a row under a dark timber ceiling",
+   "timbers": [
+    "tasmanian-oak",
+    "spotted-gum",
+    "jarrah",
+    "huon-pine"
+   ],
+   "timberUpcharge": {
+    "huon-pine": 120
+   },
+   "sizes": [
+    {
+     "id": "1500",
+     "label": "1500 mm, 5 lights",
+     "price": 2450,
+     "dims": "1500 mm long, 90 mm wide, 70 mm deep"
+    },
+    {
+     "id": "2100",
+     "label": "2100 mm, 7 lights",
+     "price": 3180,
+     "dims": "2100 mm long, 90 mm wide, 70 mm deep"
+    }
+   ],
+   "leadTime": "Made to order, 6 to 8 weeks",
+   "leadWeeks": 8,
+   "specs": {
+    "Light source": "Integrated LED, dimmable",
+    "Colour temperature": "2700K (3000K on request)",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Suspension": "Adjustable steel cables, up to 2.5 m drop",
+    "Canopy": "Timber canopy to match",
+    "IP rating": "IP20, indoor use",
+    "Output": "1800 to 2500 lumens across the beam"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Myall Lakes, NSW"
+  },
+  {
+   "slug": "coorong-candelabra",
+   "name": "Coorong",
+   "type": "Candelabra",
+   "category": "candelabras",
+   "featured": false,
+   "short": "Three or four turned timber shades hung from one canopy, in a line over a kitchen island.",
+   "story": "Coorong groups turned shades on a single timber canopy, so a kitchen island gets one considered fitting instead of three separate ones. Each shade is glued up from offcuts with its seams on show, and the drops can be set at one height or staggered.",
+   "images": [
+    "candelabra-coorong-island-pendants",
+    "candelabra-coorong-kitchen-island"
+   ],
+   "alt": "A row of pendant lights hanging over a kitchen island",
+   "timbers": [
+    "recycled-hardwood",
+    "spotted-gum",
+    "river-red-gum"
+   ],
+   "timberUpcharge": {},
+   "sizes": [
+    {
+     "id": "3",
+     "label": "3 lights",
+     "price": 1980,
+     "dims": "Canopy 1200 mm long, shades 220 mm diameter"
+    },
+    {
+     "id": "4",
+     "label": "4 lights",
+     "price": 2480,
+     "dims": "Canopy 1600 mm long, shades 220 mm diameter"
+    }
+   ],
+   "leadTime": "Made to order, 6 to 8 weeks",
+   "leadWeeks": 8,
+   "specs": {
+    "Light source": "E27 LED globes included",
+    "Colour temperature": "2700K (3000K on request)",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Suspension": "Adjustable steel cables, up to 2.5 m drop",
+    "Canopy": "Timber canopy to match",
+    "IP rating": "IP20, indoor use",
+    "Output": "806 lumens per shade"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Coorong National Park, South Australia"
+  },
+  {
+   "slug": "kanangra-candelabra",
+   "name": "Kanangra",
+   "type": "Candelabra",
+   "category": "candelabras",
+   "featured": false,
+   "short": "A timber frame with tall glowing rods, built for high ceilings, stairwells and open-plan rooms.",
+   "story": "Kanangra is our largest fitting: a timber frame that carries a series of slim vertical light rods, rising like the cliffs it's named for. It fills a double-height space without blocking the view through it, and works best where you can see it from below.",
+   "images": [
+    "candelabra-kanangra-timber-truss-rods"
+   ],
+   "alt": "Slim vertical light rods glowing beneath exposed timber roof trusses",
+   "timbers": [
+    "jarrah",
+    "tasmanian-blackwood",
+    "recycled-hardwood"
+   ],
+   "timberUpcharge": {
+    "tasmanian-blackwood": 140
+   },
+   "sizes": [
+    {
+     "id": "1200",
+     "label": "1200 mm frame",
+     "price": 3400,
+     "dims": "1200 mm long, 600 mm wide, rods 900 mm"
+    },
+    {
+     "id": "1800",
+     "label": "1800 mm frame",
+     "price": 4200,
+     "dims": "1800 mm long, 600 mm wide, rods 900 mm"
+    }
+   ],
+   "leadTime": "Made to order, 8 to 10 weeks",
+   "leadWeeks": 10,
+   "specs": {
+    "Light source": "Integrated LED, dimmable",
+    "Colour temperature": "2700K (3000K on request)",
+    "CRI": "90+",
+    "Dimming": "Trailing-edge dimmer",
+    "Suspension": "Adjustable steel cables, up to 2.5 m drop",
+    "Canopy": "Timber canopy to match",
+    "IP rating": "IP20, indoor use",
+    "Output": "3200 lumens"
+   },
+   "checkoutUrl": "",
+   "namedFor": "Kanangra-Boyd National Park, NSW"
+  }
+ ]
+}
